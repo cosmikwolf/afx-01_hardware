@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Cap-RESCUE-afx-01
+#
+DEF Cap-RESCUE-afx-01 C 0 10 N N 1 F N
+F0 "C" 10 30 20 H I L CNN
+F1 "Cap-RESCUE-afx-01" 20 -40 20 H V L CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 10  -50 -10  50 -10 N
+P 2 0 1 10  -50 10  50 10 N
+X ~ 1 0 50 39 D 40 40 1 1 P
+X ~ 2 0 -50 39 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

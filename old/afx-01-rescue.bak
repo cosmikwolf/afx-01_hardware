@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# DPST_Switch-RESCUE-afx-01
+#
+DEF DPST_Switch-RESCUE-afx-01 U 0 40 Y Y 1 F N
+F0 "U" 18 -162 60 H V C CNN
+F1 "DPST_Switch-RESCUE-afx-01" 32 184 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 40 0 5 0 1 6 N
+P 2 0 1 6  -70 0  -40 0 N
+P 2 0 1 6  -40 0  20 30 N
+P 2 0 1 6  80 0  45 0 N
+P 4 0 1 6  -100 50  -70 50  -70 -50  -100 -50 N
+P 4 0 1 6  100 50  80 50  80 -50  100 -50 N
+X ~ 1 -150 -50 47 R 39 40 1 1 P
+X ~ 1 -150 50 47 R 39 40 1 1 P
+X ~ 2 150 -50 47 L 39 40 1 1 P
+X ~ 2 150 50 47 L 39 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

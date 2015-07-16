@@ -1,0 +1,500 @@
+Cmp-Mod V01 Created by Cvpcb (2015-02-06 BZR 5410)-product   date = Mon 09 Feb 2015 04:12:04 PM PST
+
+BeginCmp
+TimeStamp = /551CEA18;
+Reference = C1;
+ValeurCmp = 1.0UF-25V-+80_-20(0805);
+IdModule  = SPARKFUN-CAPACITORS_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551CEAE0;
+Reference = C2;
+ValeurCmp = 1.0UF-25V-+80_-20(0805);
+IdModule  = SPARKFUN-CAPACITORS_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551CEBA8;
+Reference = C3;
+ValeurCmp = 1.0UF-25V-+80_-20(0805);
+IdModule  = SPARKFUN-CAPACITORS_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551CEC70;
+Reference = C4;
+ValeurCmp = 1.0UF-25V-+80_-20(0805);
+IdModule  = SPARKFUN-CAPACITORS_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551CED38;
+Reference = C5;
+ValeurCmp = 1.0UF-25V-+80_-20(0805);
+IdModule  = SPARKFUN-CAPACITORS_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551CEE00;
+Reference = C6;
+ValeurCmp = 1.0UF-25V-+80_-20(0805);
+IdModule  = SPARKFUN-CAPACITORS_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551CEEC8;
+Reference = C7;
+ValeurCmp = 1.0UF-25V-+80_-20(0805);
+IdModule  = SPARKFUN-CAPACITORS_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551CEF90;
+Reference = C8;
+ValeurCmp = 1.0UF-25V-+80_-20(0805);
+IdModule  = SPARKFUN-CAPACITORS_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551CF058;
+Reference = C9;
+ValeurCmp = 1.0UF-25V-+80_-20(0805);
+IdModule  = SPARKFUN-CAPACITORS_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551CF120;
+Reference = D1;
+ValeurCmp = 1N4148DO35-7;
+IdModule  = DIODE_DO35-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /551CFF94;
+Reference = L1;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D005C;
+Reference = L2;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D0124;
+Reference = L3;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D01EC;
+Reference = L4;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D02B4;
+Reference = L5;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D037C;
+Reference = L6;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D0444;
+Reference = L7;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D050C;
+Reference = L8;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D05D4;
+Reference = L9;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D069C;
+Reference = L10;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D0764;
+Reference = L11;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D082C;
+Reference = L12;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D08F4;
+Reference = L13;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D09BC;
+Reference = L14;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D0A84;
+Reference = L15;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D0B4C;
+Reference = L16;
+ValeurCmp = WS2812B;
+IdModule  = ADAFRUIT_WS2812B;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D0C14;
+Reference = MCP0;
+ValeurCmp = MCP23017ML;
+IdModule  = MICROCHIP_QFN28-ML_6X6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D0CDC;
+Reference = MCP1;
+ValeurCmp = MCP23017ML;
+IdModule  = MICROCHIP_QFN28-ML_6X6MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D0DA4;
+Reference = R1;
+ValeurCmp = RESISTOR0805-RES;
+IdModule  = SPARKFUN-PASSIVES_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D0E6C;
+Reference = R2;
+ValeurCmp = RESISTOR0805-RES;
+IdModule  = SPARKFUN-PASSIVES_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D0F34;
+Reference = R3;
+ValeurCmp = RESISTOR0805-RES;
+IdModule  = SPARKFUN-PASSIVES_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D0FFC;
+Reference = R4;
+ValeurCmp = RESISTOR0805-RES;
+IdModule  = SPARKFUN-PASSIVES_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D10C4;
+Reference = R5;
+ValeurCmp = RESISTOR0805-RES;
+IdModule  = SPARKFUN-PASSIVES_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D118C;
+Reference = R6;
+ValeurCmp = RESISTOR0805-RES;
+IdModule  = SPARKFUN-PASSIVES_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D1254;
+Reference = R7;
+ValeurCmp = RESISTOR0805-RES;
+IdModule  = SPARKFUN-PASSIVES_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D131C;
+Reference = R8;
+ValeurCmp = RESISTOR0805-RES;
+IdModule  = SPARKFUN-PASSIVES_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D13E4;
+Reference = R9;
+ValeurCmp = RESISTOR0805-RES;
+IdModule  = SPARKFUN-PASSIVES_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D14AC;
+Reference = R10;
+ValeurCmp = RESISTOR0805-RES;
+IdModule  = SPARKFUN-PASSIVES_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D1574;
+Reference = R11;
+ValeurCmp = RESISTOR0805-RES;
+IdModule  = SPARKFUN-PASSIVES_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D163C;
+Reference = R12;
+ValeurCmp = RESISTOR0805-RES;
+IdModule  = SPARKFUN-PASSIVES_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D1704;
+Reference = R13;
+ValeurCmp = RESISTOR0805-RES;
+IdModule  = SPARKFUN-PASSIVES_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D17CC;
+Reference = S1;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D1894;
+Reference = S2;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D195C;
+Reference = S3;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D1A24;
+Reference = S4;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D1AEC;
+Reference = S5;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D1BB4;
+Reference = S6;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D1C7C;
+Reference = S7;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D1D44;
+Reference = S8;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D1E0C;
+Reference = S9;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D1ED4;
+Reference = S10;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D1F9C;
+Reference = S11;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D2064;
+Reference = S12;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D212C;
+Reference = S13;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D21F4;
+Reference = S14;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D22BC;
+Reference = S15;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D2384;
+Reference = S16;
+ValeurCmp = 10-XX;
+IdModule  = SWITCH-OMRON_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D244C;
+Reference = SS1;
+ValeurCmp = 10-XX6MMSLIM;
+IdModule  = TENKAILIBRARY_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D2514;
+Reference = SS2;
+ValeurCmp = 10-XX6MMSLIM;
+IdModule  = TENKAILIBRARY_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D25DC;
+Reference = SS3;
+ValeurCmp = 10-XX6MMSLIM;
+IdModule  = TENKAILIBRARY_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D26A4;
+Reference = SS4;
+ValeurCmp = 10-XX6MMSLIM;
+IdModule  = TENKAILIBRARY_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D276C;
+Reference = SS5;
+ValeurCmp = 10-XX6MMSLIM;
+IdModule  = TENKAILIBRARY_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D2834;
+Reference = SS6;
+ValeurCmp = 10-XX6MMSLIM;
+IdModule  = TENKAILIBRARY_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D28FC;
+Reference = SS7;
+ValeurCmp = 10-XX6MMSLIM;
+IdModule  = TENKAILIBRARY_B3F-10XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D29C4;
+Reference = SSD1306_OLED37;
+ValeurCmp = M08;
+IdModule  = SPARKFUN-CONNECTORS_1X08_ROUND;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D3004;
+Reference = SW1;
+ValeurCmp = EC12E_SW;
+IdModule  = SWITCH-ALPS_ALPS_EC12E_SW;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D3130;
+Reference = SW2;
+ValeurCmp = EC12E_SW;
+IdModule  = SWITCH-ALPS_ALPS_EC12E_SW;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D325C;
+Reference = U$1;
+ValeurCmp = TEENSY_3.1_BASIC;
+IdModule  = TEENSY_3_SERIES_BOARD_V1.0_TEENSY_3.1_BASIC;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D3324;
+Reference = U$2;
+ValeurCmp = MIDI_CONN_FEMALE_SUPPORT;
+IdModule  = SPARKFUN-CONNECTORS_DIN_5_FEMALE_SUPPORT;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D33EC;
+Reference = U$3;
+ValeurCmp = MIDI_CONN_FEMALE_SUPPORT;
+IdModule  = SPARKFUN-CONNECTORS_DIN_5_FEMALE_SUPPORT;
+EndCmp
+
+BeginCmp
+TimeStamp = /551D34B4;
+Reference = U1;
+ValeurCmp = OPTO_DARL_6N138S;
+IdModule  = SPARKFUN-DISCRETESEMI_8-SMD;
+EndCmp
+
+EndListe

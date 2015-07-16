@@ -1,0 +1,1 @@
+kicad.app/Contents/Applications/pcb_calculator.app

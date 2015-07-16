@@ -1,0 +1,628 @@
+.HEA
+.TIM Friday, June 19, 2015 'PMt' 10:12:52 PM
+.APP "Eeschema (2015-06-12 BZR 5734)-product"
+
+.ADD_COM     U2     "Teensy_3.1"
+.ADD_COM     R16     "4.7k"
+.ADD_COM     R17     "4.7k"
+.ADD_COM     U4     "MicroSD_Adapter"
+.ADD_COM     U5     "SSD1306"
+.ADD_COM     R19     "4.7k"
+.ADD_COM     R18     "4.7k"
+.ADD_COM     U1     "ADA_SSD1306_I2C"
+.ADD_COM     P1     "CONN_02X05"
+.ADD_COM     P2     "CONN_02X05"
+.ADD_COM     LED1     "WS2812b"
+.ADD_COM     LED5     "WS2812b"
+.ADD_COM     LED9     "WS2812b"
+.ADD_COM     LED13     "WS2812b"
+.ADD_COM     LED2     "WS2812b"
+.ADD_COM     LED6     "WS2812b"
+.ADD_COM     LED10     "WS2812b"
+.ADD_COM     LED14     "WS2812b"
+.ADD_COM     LED3     "WS2812b"
+.ADD_COM     LED7     "WS2812b"
+.ADD_COM     LED11     "WS2812b"
+.ADD_COM     LED15     "WS2812b"
+.ADD_COM     LED4     "WS2812b"
+.ADD_COM     LED8     "WS2812b"
+.ADD_COM     LED12     "WS2812b"
+.ADD_COM     LED16     "WS2812b"
+.ADD_COM     C1     "100µf"
+.ADD_COM     C2     "100µf"
+.ADD_COM     C3     "100µf"
+.ADD_COM     C4     "100µf"
+.ADD_COM     R1     "500"
+.ADD_COM     U3     "SAM2695"
+.ADD_COM     C14     "22pF"
+.ADD_COM     C13     "22pF"
+.ADD_COM     C17     "10µfT"
+.ADD_COM     C6     "100nF"
+.ADD_COM     C7     "100nF"
+.ADD_COM     C10     "100nF"
+.ADD_COM     C8     "100nF"
+.ADD_COM     C9     "100nF"
+.ADD_COM     D1     "LL4148"
+.ADD_COM     R3     "10k"
+.ADD_COM     C5     "1µfT"
+.ADD_COM     C12     "100µfT"
+.ADD_COM     R4     "47k"
+.ADD_COM     L1     "742792093"
+.ADD_COM     C18     "100nF"
+.ADD_COM     C19     "10µfT"
+.ADD_COM     R6     "0"
+.ADD_COM     C16     "10µfT"
+.ADD_COM     C11     "100µfT"
+.ADD_COM     C15     "100nF"
+.ADD_COM     R5     "47k"
+.ADD_COM     J1     "HeadphoneOut"
+.ADD_COM     J2     "MicIn"
+.ADD_COM     C20     "1µfT"
+.ADD_COM     C21     "220pF"
+.ADD_COM     R7     "4.7k"
+.ADD_COM     R2     "220"
+.ADD_COM     X1     "12MHz"
+.ADD_COM     C25     "4.7µfT"
+.ADD_COM     C26     "100nF"
+.ADD_COM     MIDI_OUT1     "MIDI_CONN_FEMALE"
+.ADD_COM     MIDI_IN1     "MIDI_CONN_FEMALE"
+.ADD_COM     MIDI_OPTOISOLATOR1     "6N139"
+.ADD_COM     D2     "1A"
+.ADD_COM     R8     "220"
+.ADD_COM     C22     "100µf"
+.ADD_COM     R11     "220"
+.ADD_COM     R9     "220"
+.ADD_COM     R10     "220"
+.ADD_COM     MCP1     "MCP23017-QFN"
+.ADD_COM     S1     "DPST_Switch"
+.ADD_COM     S5     "DPST_Switch"
+.ADD_COM     S9     "DPST_Switch"
+.ADD_COM     S13     "DPST_Switch"
+.ADD_COM     S2     "DPST_Switch"
+.ADD_COM     S6     "DPST_Switch"
+.ADD_COM     S10     "DPST_Switch"
+.ADD_COM     S14     "DPST_Switch"
+.ADD_COM     S3     "DPST_Switch"
+.ADD_COM     S7     "DPST_Switch"
+.ADD_COM     S11     "DPST_Switch"
+.ADD_COM     S15     "DPST_Switch"
+.ADD_COM     S4     "DPST_Switch"
+.ADD_COM     S8     "DPST_Switch"
+.ADD_COM     S12     "DPST_Switch"
+.ADD_COM     S16     "DPST_Switch"
+.ADD_COM     MCP2     "MCP23017-QFN"
+.ADD_COM     SS1     "DPST_Switch"
+.ADD_COM     SS4     "DPST_Switch"
+.ADD_COM     SS7     "DPST_Switch"
+.ADD_COM     SS2     "DPST_Switch"
+.ADD_COM     SS5     "DPST_Switch"
+.ADD_COM     SS8     "DPST_Switch"
+.ADD_COM     ENC1     "Encoder_switch"
+.ADD_COM     SS3     "DPST_Switch"
+.ADD_COM     SS6     "DPST_Switch"
+.ADD_COM     SS9     "DPST_Switch"
+.ADD_COM     R14     "10k"
+.ADD_COM     R13     "10k"
+.ADD_COM     C24     ".01µf"
+.ADD_COM     R12     "10k"
+.ADD_COM     R15     "10k"
+.ADD_COM     C23     ".01µf"
+
+
+.ADD_TER   U3   8     "VCC"
+.TER       U3   6
+            C9   2
+            LED10   2
+            LED14   2
+            U3   20
+            U3   11
+            U3   31
+            U2   48
+            U3   41
+            U3   12
+            LED3   2
+            U3   35
+            LED1   2
+            LED5   2
+            R13   2
+            LED9   2
+            R14   2
+            U3   46
+            R18   2
+            R19   2
+            U3   47
+            C17   1
+            P1   3
+            C6   2
+            U1   7
+            C7   2
+            LED6   2
+            C10   2
+            C8   2
+            MCP2   5
+            MCP2   11
+            LED4   2
+            C1   1
+            LED8   2
+            LED15   2
+            MCP2   14
+            LED11   2
+            C2   1
+            LED7   2
+            C4   1
+            C3   1
+            LED13   2
+            LED2   2
+            LED12   2
+            LED16   2
+            U2   44
+            MCP1   5
+            MIDI_OPTOISOLATOR1   8
+            R17   1
+            R16   1
+            C19   1
+            C18   2
+            R11   1
+            MCP1   14
+            C22   1
+            R9   1
+            R3   1
+            D1   2
+            P2   3
+            L1   1
+            L1   2
+            U5   1
+            U4   7
+
+.ADD_TER   SS7   4     "GND"
+.TER       SS7   3
+            SS8   4
+            SS1   4
+            SS8   3
+            SS5   4
+            SS4   3
+            SS4   4
+            SS5   3
+            S2   3
+            S2   4
+            SS9   3
+            SS9   4
+            S6   3
+            S6   4
+            S10   3
+            S10   4
+            S14   3
+            S14   4
+            S13   3
+            S13   4
+            C24   2
+            SS1   3
+            MCP2   6
+            MCP2   12
+            MCP2   13
+            SS2   3
+            SS2   4
+            ENC1   2
+            ENC1   5
+            SS3   3
+            SS3   4
+            SS6   3
+            SS6   4
+            C23   2
+            C10   1
+            C7   1
+            C6   1
+            C17   2
+            C13   2
+            C14   2
+            U3   48
+            U3   18
+            U3   37
+            U3   36
+            U3   45
+            U3   25
+            U3   15
+            U3   14
+            U3   13
+            U3   10
+            U3   9
+            C9   1
+            C8   1
+            R6   2
+            MIDI_OPTOISOLATOR1   5
+            MIDI_OUT1   2
+            MIDI_IN1   2
+            C22   2
+            C25   2
+            C26   1
+            C5   2
+            LED2   3
+            LED6   3
+            LED10   3
+            LED14   3
+            LED3   3
+            LED1   3
+            LED5   3
+            LED9   3
+            LED13   3
+            LED12   3
+            LED16   3
+            C1   2
+            C2   2
+            C3   2
+            C4   2
+            LED7   3
+            LED11   3
+            LED8   3
+            LED4   3
+            LED15   3
+            S12   4
+            S12   3
+            P1   1
+            U1   8
+            S8   4
+            S8   3
+            U2   49
+            U2   43
+            U2   50
+            S11   3
+            U4   1
+            S1   3
+            P2   1
+            S16   4
+            S16   3
+            S4   4
+            S4   3
+            S15   4
+            S15   3
+            S11   4
+            S7   4
+            S7   3
+            S3   4
+            S3   3
+            MCP1   6
+            U5   2
+            MCP1   11
+            MCP1   12
+            S9   3
+            S1   4
+            S5   4
+            S5   3
+            MCP1   13
+            S9   4
+
+.ADD_TER   U5   4     "/13"
+.TER       U2   13
+            P1   8
+            U4   3
+
+.ADD_TER   U4   2     "/10"
+.TER       U2   10
+
+.ADD_TER   U2   12     "/12"
+.TER       P1   9
+            U4   5
+
+.ADD_TER   P1   7     "/11"
+.TER       U5   3
+            U2   11
+            U4   4
+
+.ADD_TER   U5   7     "/9"
+.TER       U2   9
+
+.ADD_TER   U5   6     "/5"
+.TER       U1   4
+            U2   5
+
+.ADD_TER   U5   5     "/6"
+.TER       U2   6
+
+.ADD_TER   R17   2     "/SwitchMatrix/SCL"
+.TER       MCP1   8
+            U2   19
+            MCP2   8
+
+.ADD_TER   MCP2   9     "/SwitchMatrix/SDA"
+.TER       U2   18
+            R16   2
+            MCP1   9
+
+.ADD_TER   P2   9     "/4"
+.TER       U2   4
+
+.ADD_TER   P2   8     "/25"
+.TER       U2   25
+
+.ADD_TER   P2   7     "/3"
+.TER       U2   3
+
+.ADD_TER   U2   46     "/VIN"
+.TER       P2   5
+            P1   5
+
+.ADD_TER   U2   22     "/22"
+.TER       P2   4
+
+.ADD_TER   U2   20     "/20"
+.TER       P2   2
+
+.ADD_TER   U2   29     "/29"
+.TER       U1   2
+            R18   1
+            P1   4
+
+.ADD_TER   U1   1     "/30"
+.TER       R19   1
+            P1   6
+            U2   30
+
+.ADD_TER   U2   1     "/SoundBoard/MIDIIN"
+.TER       R2   2
+            R10   1
+
+.ADD_TER   C23   1     "/SwitchMatrix/ENCA"
+.TER       U2   17
+            R12   2
+
+.ADD_TER   U2   16     "/SwitchMatrix/ENCB"
+.TER       C24   1
+            R15   2
+
+.ADD_TER   MIDI_OPTOISOLATOR1   6     "/MidiConnectors/RX"
+.TER       U2   0
+            R11   2
+
+.ADD_TER   R1   2     "/LED Matrix/LED_DIN"
+.TER       U2   21
+
+.ADD_TER   P2   10     "/26"
+.TER       U2   26
+
+.ADD_TER   P2   6     "/24"
+.TER       U2   24
+
+.ADD_TER   U2   15     "/15"
+.TER       P1   10
+
+.ADD_TER   C21   1     "AGND"
+.TER       R7   2
+            R5   2
+            R6   1
+            C16   2
+            U2   47
+            C15   1
+            U3   4
+            P1   2
+            J2   1
+            J2   2
+            J2   3
+            J2   5
+            C18   1
+            C19   2
+            J1   5
+            R4   2
+
+.ADD_TER   MCP1   28     "Net-(MCP1-Pad28)"
+.TER       S15   1
+            S15   2
+
+.ADD_TER   MCP1   1     "Net-(MCP1-Pad1)"
+.TER       S4   1
+            S4   2
+
+.ADD_TER   MCP1   25     "Net-(MCP1-Pad25)"
+.TER       S3   1
+            S3   2
+
+.ADD_TER   MCP1   26     "Net-(MCP1-Pad26)"
+.TER       S7   1
+            S7   2
+
+.ADD_TER   S11   2     "Net-(MCP1-Pad27)"
+.TER       MCP1   27
+            S11   1
+
+.ADD_TER   S8   1     "Net-(MCP1-Pad2)"
+.TER       S8   2
+            MCP1   2
+
+.ADD_TER   S12   2     "Net-(MCP1-Pad3)"
+.TER       MCP1   3
+            S12   1
+
+.ADD_TER   S16   1     "Net-(MCP1-Pad4)"
+.TER       S16   2
+            MCP1   4
+
+.ADD_TER   MCP1   18     "Net-(MCP1-Pad18)"
+.TER       S5   2
+            S5   1
+
+.ADD_TER   MCP1   19     "Net-(MCP1-Pad19)"
+.TER       S9   1
+            S9   2
+
+.ADD_TER   S1   2     "Net-(MCP1-Pad17)"
+.TER       S1   1
+            MCP1   17
+
+.ADD_TER   S6   1     "Net-(MCP1-Pad22)"
+.TER       S6   2
+            MCP1   22
+
+.ADD_TER   MCP1   23     "Net-(MCP1-Pad23)"
+.TER       S10   1
+            S10   2
+
+.ADD_TER   MCP1   24     "Net-(MCP1-Pad24)"
+.TER       S14   2
+            S14   1
+
+.ADD_TER   MCP1   20     "Net-(MCP1-Pad20)"
+.TER       S13   1
+            S13   2
+
+.ADD_TER   MCP1   21     "Net-(MCP1-Pad21)"
+.TER       S2   2
+            S2   1
+
+.ADD_TER   MCP2   27     "Net-(MCP2-Pad27)"
+.TER       SS9   2
+            SS9   1
+
+.ADD_TER   R15   1     "Net-(ENC1-Pad3)"
+.TER       R14   1
+            ENC1   3
+
+.ADD_TER   R13   1     "Net-(ENC1-Pad1)"
+.TER       R12   1
+            ENC1   1
+
+.ADD_TER   MCP2   1     "Net-(ENC1-Pad4)"
+.TER       ENC1   4
+
+.ADD_TER   MCP2   25     "Net-(MCP2-Pad25)"
+.TER       SS3   2
+            SS3   1
+
+.ADD_TER   SS6   2     "Net-(MCP2-Pad26)"
+.TER       MCP2   26
+            SS6   1
+
+.ADD_TER   SS1   2     "Net-(MCP2-Pad17)"
+.TER       SS1   1
+            MCP2   17
+
+.ADD_TER   MCP2   19     "Net-(MCP2-Pad19)"
+.TER       SS7   1
+            SS7   2
+
+.ADD_TER   MCP2   18     "Net-(MCP2-Pad18)"
+.TER       SS4   2
+            SS4   1
+
+.ADD_TER   SS2   1     "Net-(MCP2-Pad21)"
+.TER       SS2   2
+            MCP2   21
+
+.ADD_TER   SS5   2     "Net-(MCP2-Pad22)"
+.TER       MCP2   22
+            SS5   1
+
+.ADD_TER   SS8   1     "Net-(MCP2-Pad23)"
+.TER       SS8   2
+            MCP2   23
+
+.ADD_TER   LED9   4     "Net-(LED10-Pad1)"
+.TER       LED10   1
+
+.ADD_TER   LED10   4     "Net-(LED10-Pad4)"
+.TER       LED11   1
+
+.ADD_TER   LED11   4     "Net-(LED11-Pad4)"
+.TER       LED12   1
+
+.ADD_TER   LED13   4     "Net-(LED13-Pad4)"
+.TER       LED14   1
+
+.ADD_TER   LED15   1     "Net-(LED14-Pad4)"
+.TER       LED14   4
+
+.ADD_TER   LED16   1     "Net-(LED15-Pad4)"
+.TER       LED15   4
+
+.ADD_TER   LED12   4     "Net-(LED12-Pad4)"
+.TER       LED13   1
+
+.ADD_TER   LED8   4     "Net-(LED8-Pad4)"
+.TER       LED9   1
+
+.ADD_TER   LED1   4     "Net-(LED1-Pad4)"
+.TER       LED2   1
+
+.ADD_TER   LED3   1     "Net-(LED2-Pad4)"
+.TER       LED2   4
+
+.ADD_TER   LED3   4     "Net-(LED3-Pad4)"
+.TER       LED4   1
+
+.ADD_TER   R1   1     "Net-(LED1-Pad1)"
+.TER       LED1   1
+
+.ADD_TER   LED6   1     "Net-(LED5-Pad4)"
+.TER       LED5   4
+
+.ADD_TER   LED6   4     "Net-(LED6-Pad4)"
+.TER       LED7   1
+
+.ADD_TER   LED8   1     "Net-(LED7-Pad4)"
+.TER       LED7   4
+
+.ADD_TER   LED5   1     "Net-(LED4-Pad4)"
+.TER       LED4   4
+
+.ADD_TER   X1   3     "Net-(C14-Pad1)"
+.TER       C14   1
+            U3   40
+
+.ADD_TER   C20   1     "Net-(C20-Pad1)"
+.TER       U3   7
+
+.ADD_TER   C12   1     "Net-(C12-Pad1)"
+.TER       U3   1
+
+.ADD_TER   C13   1     "Net-(C13-Pad1)"
+.TER       U3   39
+            X1   1
+
+.ADD_TER   J2   4     "Net-(C20-Pad2)"
+.TER       C20   2
+            C21   2
+            R7   1
+
+.ADD_TER   C11   1     "Net-(C11-Pad1)"
+.TER       U3   2
+
+.ADD_TER   R5   1     "Net-(C12-Pad2)"
+.TER       C12   2
+            J1   4
+
+.ADD_TER   C26   2     "Net-(C25-Pad1)"
+.TER       C25   1
+            U3   34
+
+.ADD_TER   R2   1     "Net-(R2-Pad1)"
+.TER       U3   16
+
+.ADD_TER   J1   1     "Net-(C11-Pad2)"
+.TER       C11   2
+            R4   1
+
+.ADD_TER   C5   1     "Net-(C5-Pad1)"
+.TER       U3   38
+            D1   1
+            R3   2
+
+.ADD_TER   U3   5     "Net-(C15-Pad2)"
+.TER       C16   1
+            C15   2
+
+.ADD_TER   D2   1     "Net-(D2-Pad1)"
+.TER       MIDI_OPTOISOLATOR1   3
+            MIDI_IN1   5
+
+.ADD_TER   MIDI_OPTOISOLATOR1   2     "Net-(D2-Pad2)"
+.TER       D2   2
+            R8   1
+
+.ADD_TER   MIDI_IN1   4     "Net-(MIDI_IN1-Pad4)"
+.TER       R8   2
+
+.ADD_TER   R10   2     "Net-(MIDI_OUT1-Pad5)"
+.TER       MIDI_OUT1   5
+
+.ADD_TER   R9   2     "Net-(MIDI_OUT1-Pad4)"
+.TER       MIDI_OUT1   4
+
+.END
