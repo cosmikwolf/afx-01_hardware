@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP6004
+D Quad Op amp.
+K AmpliOp
+$ENDCMP
+#
+$CMP OPA4171
+D Quad Op amp.
+K AmpliOp
+$ENDCMP
+#
+#End Doc Library
