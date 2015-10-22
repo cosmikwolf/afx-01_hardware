@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -264,7 +264,7 @@ F 3 "" H 9800 2000 60  0000 C CNN
 	1    9800 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 6550 3300 0    60   3State ~ 0
+Text GLabel 7050 2700 0    60   3State ~ 0
 DAC_CS
 Text GLabel 10050 3600 2    60   Output ~ 0
 SCLK
@@ -294,7 +294,7 @@ Text GLabel 7600 3500 0    60   Output ~ 0
 MOSI
 Text GLabel 7300 3600 0    60   Input ~ 0
 MISO
-Text GLabel 7250 3400 0    60   3State ~ 0
+Text GLabel 7550 2600 0    60   3State ~ 0
 SD_CS
 Text GLabel 5300 1250 0    60   Input ~ 0
 SCLK
@@ -450,7 +450,7 @@ MIDI_IN_EXTERNAL
 $Sheet
 S 1000 2000 1200 300 
 U 561FE26C
-F0 "CV Input Connectors" 60
+F0 "CV / Gate Input Connectors" 60
 F1 "ADC_Connectors.sch" 60
 $EndSheet
 Text Notes 9850 4900 2    60   ~ 0
@@ -513,10 +513,6 @@ Text GLabel 9800 2800 2    60   Input ~ 0
 CV_IN3
 Text GLabel 10250 2900 2    60   Input ~ 0
 CV_IN4
-Text GLabel 10000 3400 2    60   Input ~ 0
-GATE_IN1
-Text GLabel 10500 3500 2    60   Input ~ 0
-GATE_IN2
 NoConn ~ 8200 3750
 NoConn ~ 8100 3750
 NoConn ~ 8000 3750
@@ -730,68 +726,38 @@ F 3 "" H 2950 6050 60  0000 C CNN
 $EndComp
 Text GLabel 8450 2050 1    60   3State ~ 0
 QT_CS
-Text GLabel 5600 4850 2    60   Input ~ 0
+Text GLabel 5950 4000 0    60   Input ~ 0
 GATE_IN3
-Text GLabel 5600 5350 2    60   Input ~ 0
+Text GLabel 5950 4500 0    60   Input ~ 0
 GATE_IN4
-Text GLabel 7500 2800 0    60   Input ~ 0
+Text GLabel 7250 3400 0    60   Input ~ 0
 QT_RX
-Text GLabel 6850 2700 0    60   Input ~ 0
+Text GLabel 6550 3300 0    60   Input ~ 0
 QT_TX
 $Comp
 L JUMPER3 JP?
 U 1 1 5629034F
-P 5250 4850
-F 0 "JP?" H 5300 4750 50  0000 L CNN
-F 1 "JUMPER3" H 5250 4950 50  0000 C BNN
-F 2 "Zetaohm:Jumper_3way" H 5250 4850 60  0001 C CNN
-F 3 "" H 5250 4850 60  0000 C CNN
-	1    5250 4850
+P 5950 4200
+F 0 "JP?" H 6000 4100 50  0000 L CNN
+F 1 "JUMPER3" H 5950 4300 50  0000 C BNN
+F 2 "Zetaohm:Jumper_3way" H 5950 4200 60  0001 C CNN
+F 3 "" H 5950 4200 60  0000 C CNN
+	1    5950 4200
 	-1   0    0    1   
 $EndComp
 $Comp
 L JUMPER3 JP?
 U 1 1 5629077E
-P 5250 5350
-F 0 "JP?" H 5300 5250 50  0000 L CNN
-F 1 "JUMPER3" H 5250 5450 50  0000 C BNN
-F 2 "Zetaohm:Jumper_3way" H 5250 5350 60  0001 C CNN
-F 3 "" H 5250 5350 60  0000 C CNN
-	1    5250 5350
+P 5950 4700
+F 0 "JP?" H 6000 4600 50  0000 L CNN
+F 1 "JUMPER3" H 5950 4800 50  0000 C BNN
+F 2 "Zetaohm:Jumper_3way" H 5950 4700 60  0001 C CNN
+F 3 "" H 5950 4700 60  0000 C CNN
+	1    5950 4700
 	-1   0    0    1   
 $EndComp
-Text Notes 5650 3450 2    60   ~ 0
+Text Notes 6250 3800 2    60   ~ 0
 QT UART / GATE 3-4
-Text GLabel 5250 4650 0    60   Input ~ 0
-TEENSY_PIN3
-Text GLabel 5250 5150 0    60   Input ~ 0
-TEENSY_PIN4
-$Comp
-L JUMPER3 JP?
-U 1 1 562946F5
-P 5250 3850
-F 0 "JP?" H 5300 3750 50  0000 L CNN
-F 1 "JUMPER3" H 5250 3950 50  0000 C BNN
-F 2 "Zetaohm:Jumper_3way" H 5250 3850 60  0001 C CNN
-F 3 "" H 5250 3850 60  0000 C CNN
-	1    5250 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L JUMPER3 JP?
-U 1 1 562946FB
-P 5250 4350
-F 0 "JP?" H 5300 4250 50  0000 L CNN
-F 1 "JUMPER3" H 5250 4450 50  0000 C BNN
-F 2 "Zetaohm:Jumper_3way" H 5250 4350 60  0001 C CNN
-F 3 "" H 5250 4350 60  0000 C CNN
-	1    5250 4350
-	-1   0    0    1   
-$EndComp
-Text GLabel 5250 3650 0    60   Input ~ 0
-TEENSY_PIN1
-Text GLabel 5250 4150 0    60   Input ~ 0
-TEENSY_PIN2
 Wire Wire Line
 	9400 3200 10000 3200
 Wire Wire Line
@@ -833,15 +799,9 @@ Wire Wire Line
 Wire Wire Line
 	3800 2000 3800 2050
 Wire Wire Line
-	6800 5200 6800 5350
+	6800 5200 6800 5550
 Wire Wire Line
-	6800 5350 6800 5550
-Wire Wire Line
-	6800 5350 7150 5350
-Wire Wire Line
-	7150 5350 7500 5350
-Wire Wire Line
-	7500 5350 7950 5350
+	6800 5350 7950 5350
 Wire Wire Line
 	7150 5350 7150 5550
 Connection ~ 6800 5350
@@ -852,9 +812,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 5850 10500 5850
 Wire Wire Line
-	10500 5850 10500 6000
-Wire Wire Line
-	10500 6000 10500 6200
+	10500 5850 10500 6200
 Wire Wire Line
 	10500 6200 10300 6200
 Connection ~ 10500 6000
@@ -951,9 +909,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 5900 1650 5700
 Wire Wire Line
-	1650 5700 2000 5700
-Wire Wire Line
-	2000 5700 2350 5700
+	1650 5700 2350 5700
 Wire Wire Line
 	2350 5700 2350 5900
 Wire Wire Line
@@ -963,9 +919,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 6300 1400 6800
 Wire Wire Line
-	1400 6800 2000 6800
-Wire Wire Line
-	2000 6800 2600 6800
+	1400 6800 2600 6800
 Wire Wire Line
 	2600 6800 2600 6300
 Wire Wire Line
@@ -979,30 +933,22 @@ Connection ~ 2000 5700
 Wire Wire Line
 	1750 6000 1650 6000
 Wire Wire Line
-	1650 6000 1650 6100
-Wire Wire Line
-	1650 6100 1650 6200
+	1650 6000 1650 6200
 Wire Wire Line
 	1650 6200 1750 6200
 Wire Wire Line
-	1250 6100 1650 6100
-Wire Wire Line
-	1650 6100 1750 6100
+	1250 6100 1750 6100
 Connection ~ 1650 6100
 Wire Wire Line
 	1250 6200 1250 6100
 Wire Wire Line
 	2350 6200 2250 6200
 Wire Wire Line
-	2350 6000 2350 6100
-Wire Wire Line
-	2350 6100 2350 6200
+	2350 6000 2350 6200
 Wire Wire Line
 	2350 6000 2250 6000
 Wire Wire Line
-	2250 6100 2350 6100
-Wire Wire Line
-	2350 6100 2750 6100
+	2250 6100 2750 6100
 Connection ~ 2350 6100
 Wire Wire Line
 	2950 4900 2650 4900
@@ -1029,27 +975,21 @@ Wire Wire Line
 Wire Wire Line
 	7550 2600 7700 2600
 Wire Wire Line
-	7700 2700 6850 2700
+	7700 2700 7050 2700
 Wire Wire Line
 	7500 2800 7700 2800
 Wire Wire Line
 	7700 3000 7450 3000
 Wire Wire Line
-	2750 5800 2750 6100
-Wire Wire Line
-	2750 6100 2750 6200
+	2750 5800 2750 6200
 Wire Wire Line
 	7700 3300 6550 3300
 Wire Wire Line
 	8450 2050 8450 2150
 Wire Wire Line
-	6550 5850 6800 5850
+	6550 5850 7350 5850
 Wire Wire Line
-	6800 5850 7350 5850
-Wire Wire Line
-	6550 6200 7150 6200
-Wire Wire Line
-	7150 6200 7800 6200
+	6550 6200 7800 6200
 Connection ~ 7150 6200
 Connection ~ 6800 5850
 Wire Wire Line
@@ -1059,13 +999,9 @@ Wire Wire Line
 	7950 5350 7950 6000
 Connection ~ 7500 5350
 Wire Wire Line
-	7750 5850 8350 5850
+	7750 5850 9000 5850
 Wire Wire Line
-	8350 5850 9000 5850
-Wire Wire Line
-	8200 6200 8750 6200
-Wire Wire Line
-	8750 6200 9000 6200
+	8200 6200 9000 6200
 Wire Wire Line
 	8350 5750 8350 5850
 Connection ~ 8350 5850
@@ -1077,20 +1013,12 @@ Wire Wire Line
 Wire Wire Line
 	8350 5350 8750 5350
 Wire Wire Line
-	8750 5200 8750 5350
-Wire Wire Line
-	8750 5350 8750 5550
+	8750 5200 8750 5550
 Connection ~ 8750 5350
 Wire Wire Line
-	2250 6400 2500 6400
+	2250 6400 3050 6400
 Wire Wire Line
-	2500 6400 2950 6400
-Wire Wire Line
-	2950 6400 3050 6400
-Wire Wire Line
-	3550 6400 3800 6400
-Wire Wire Line
-	3800 6400 3900 6400
+	3550 6400 3900 6400
 Wire Wire Line
 	3300 6300 3300 5950
 Wire Wire Line
@@ -1124,13 +1052,9 @@ Connection ~ 3800 6400
 Wire Wire Line
 	3800 6800 3800 6950
 Wire Wire Line
-	3800 6950 4400 6950
+	3800 6950 4900 6950
 Wire Wire Line
-	4400 6950 4900 6950
-Wire Wire Line
-	4400 6850 4400 6950
-Wire Wire Line
-	4400 6950 4400 7050
+	4400 6850 4400 7050
 Connection ~ 4400 6950
 Wire Wire Line
 	4900 6950 4900 6800
@@ -1149,73 +1073,40 @@ Wire Wire Line
 	2950 5800 2950 5950
 Connection ~ 2750 6100
 Wire Wire Line
-	4900 4850 5000 4850
+	5600 4200 5700 4200
 Wire Wire Line
-	5250 4650 5250 4700
+	5950 4000 5950 4100
 Wire Wire Line
-	5250 4700 5250 4750
+	6200 4200 6300 4200
 Wire Wire Line
-	5500 4850 5550 4850
+	6200 4700 6300 4700
 Wire Wire Line
-	5550 4850 5600 4850
+	5700 4700 5600 4700
 Wire Wire Line
-	5600 5350 5550 5350
+	5950 4500 5950 4600
 Wire Wire Line
-	5550 5350 5500 5350
+	5950 4050 6250 4050
 Wire Wire Line
-	5000 5350 4900 5350
+	6250 4050 6250 4200
+Connection ~ 6250 4200
+Connection ~ 5950 4050
 Wire Wire Line
-	5250 5250 5250 5200
+	5950 4550 6250 4550
 Wire Wire Line
-	5250 5200 5250 5150
-Wire Wire Line
-	4900 3850 5000 3850
-Wire Wire Line
-	5250 3650 5250 3700
-Wire Wire Line
-	5250 3700 5250 3750
-Wire Wire Line
-	5500 3850 5550 3850
-Wire Wire Line
-	5550 3850 5600 3850
-Wire Wire Line
-	5600 4350 5550 4350
-Wire Wire Line
-	5550 4350 5500 4350
-Wire Wire Line
-	5000 4350 4900 4350
-Wire Wire Line
-	5250 4250 5250 4200
-Wire Wire Line
-	5250 4200 5250 4150
-Wire Wire Line
-	5250 3700 5550 3700
-Wire Wire Line
-	5550 3700 5550 3850
-Connection ~ 5550 3850
-Connection ~ 5250 3700
-Wire Wire Line
-	5250 4200 5550 4200
-Wire Wire Line
-	5550 4200 5550 4350
-Connection ~ 5550 4350
-Connection ~ 5250 4200
-Wire Wire Line
-	5250 4700 5550 4700
-Wire Wire Line
-	5550 4700 5550 4850
-Connection ~ 5550 4850
-Connection ~ 5250 4700
-Wire Wire Line
-	5250 5200 5550 5200
-Wire Wire Line
-	5550 5200 5550 5350
-Connection ~ 5550 5350
-Connection ~ 5250 5200
-$Sheet
-S 1000 4350 1200 300 
-U 56295FCA
-F0 "Gate Input + Encoders" 60
-F1 "gateInput.sch" 60
-$EndSheet
+	6250 4550 6250 4700
+Connection ~ 6250 4700
+Connection ~ 5950 4550
+Text GLabel 10000 3400 2    60   Input ~ 0
+PIN_A1
+Text GLabel 10500 3500 2    60   Input ~ 0
+PIN_A0
+Text GLabel 6300 4200 2    60   Input ~ 0
+PIN_A0
+Text GLabel 6300 4700 2    60   Input ~ 0
+PIN_A1
+Text GLabel 5600 4200 0    60   Input ~ 0
+MCP_GATE_IN3
+Text GLabel 5600 4700 0    60   Input ~ 0
+MCP_GATE_IN4
+NoConn ~ 7450 2400
 $EndSCHEMATC

@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -73,7 +73,7 @@ U 1 1 557B870A
 P 6800 5650
 F 0 "R16" V 6900 5600 50  0000 C CNN
 F 1 "4.7k" V 6690 5640 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6730 5650 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6730 5650 30  0001 C CNN
 F 3 "" H 6800 5640 30  0000 C CNN
 	1    6800 5650
 	-1   0    0    1   
@@ -84,7 +84,7 @@ U 1 1 557B87A5
 P 7150 5650
 F 0 "R17" V 7250 5600 50  0000 C CNN
 F 1 "4.7k" V 7040 5640 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7080 5650 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7080 5650 30  0001 C CNN
 F 3 "" H 7150 5640 30  0000 C CNN
 	1    7150 5650
 	-1   0    0    1   
@@ -107,7 +107,7 @@ U 1 1 558465F0
 P 10200 6200
 F 0 "R19" V 10300 6150 50  0000 C CNN
 F 1 "4.7k" V 10090 6190 50  0001 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 10130 6200 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 10130 6200 30  0001 C CNN
 F 3 "" H 10200 6190 30  0000 C CNN
 	1    10200 6200
 	0    -1   -1   0   
@@ -118,7 +118,7 @@ U 1 1 55846650
 P 10200 5850
 F 0 "R18" V 10300 5800 50  0000 C CNN
 F 1 "4.7k" V 10090 5840 50  0001 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 10130 5850 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 10130 5850 30  0001 C CNN
 F 3 "" H 10200 5840 30  0000 C CNN
 	1    10200 5850
 	0    -1   -1   0   
@@ -130,7 +130,7 @@ U 1 1 558492E1
 P 3850 1600
 F 0 "U1" H 3510 2150 60  0000 C CNN
 F 1 "ADA_SSD1306_I2C" H 3850 1950 60  0000 C CNN
-F 2 "Zetaohm:SSD1306" V 4050 1550 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x06" V 4050 1550 60  0001 C CNN
 F 3 "" V 4050 1550 60  0000 C CNN
 	1    3850 1600
 	1    0    0    -1  
@@ -264,7 +264,7 @@ F 3 "" H 9800 2000 60  0000 C CNN
 	1    9800 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 6550 3300 0    60   3State ~ 0
+Text GLabel 7050 2700 0    60   3State ~ 0
 DAC_CS
 Text GLabel 10050 3600 2    60   Output ~ 0
 SCLK
@@ -294,7 +294,7 @@ Text GLabel 7600 3500 0    60   Output ~ 0
 MOSI
 Text GLabel 7300 3600 0    60   Input ~ 0
 MISO
-Text GLabel 7250 3400 0    60   3State ~ 0
+Text GLabel 7550 2600 0    60   3State ~ 0
 SD_CS
 Text GLabel 5300 1250 0    60   Input ~ 0
 SCLK
@@ -450,7 +450,7 @@ MIDI_IN_EXTERNAL
 $Sheet
 S 1000 2000 1200 300 
 U 561FE26C
-F0 "CV Input Connectors" 60
+F0 "CV / Gate Input Connectors" 60
 F1 "ADC_Connectors.sch" 60
 $EndSheet
 Text Notes 9850 4900 2    60   ~ 0
@@ -513,10 +513,6 @@ Text GLabel 9800 2800 2    60   Input ~ 0
 CV_IN3
 Text GLabel 10250 2900 2    60   Input ~ 0
 CV_IN4
-Text GLabel 10000 3400 2    60   Input ~ 0
-GATE_IN1
-Text GLabel 10500 3500 2    60   Input ~ 0
-GATE_IN2
 NoConn ~ 8200 3750
 NoConn ~ 8100 3750
 NoConn ~ 8000 3750
@@ -591,7 +587,7 @@ U 1 1 562286C4
 P 8350 5650
 F 0 "R72" V 8450 5600 50  0000 C CNN
 F 1 "4.7k" V 8240 5640 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8280 5650 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8280 5650 30  0001 C CNN
 F 3 "" H 8350 5640 30  0000 C CNN
 	1    8350 5650
 	-1   0    0    1   
@@ -602,7 +598,7 @@ U 1 1 562287D6
 P 8750 5650
 F 0 "R73" V 8850 5600 50  0000 C CNN
 F 1 "4.7k" V 8640 5640 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8680 5650 30  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8680 5650 30  0001 C CNN
 F 3 "" H 8750 5640 30  0000 C CNN
 	1    8750 5650
 	-1   0    0    1   
@@ -696,102 +692,72 @@ $EndComp
 NoConn ~ 8650 1000
 NoConn ~ 9350 1300
 $Comp
-L C_Small C?
+L C_Small C24
 U 1 1 5628B983
 P 3800 6700
-F 0 "C?" H 3810 6770 50  0000 L CNN
+F 0 "C24" H 3810 6770 50  0000 L CNN
 F 1 "0.1uf" H 3810 6620 50  0000 L CNN
-F 2 "" H 3800 6700 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3800 6700 60  0001 C CNN
 F 3 "" H 3800 6700 60  0000 C CNN
 	1    3800 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C35
 U 1 1 5628BCAF
 P 4900 6700
-F 0 "C?" H 4910 6770 50  0000 L CNN
+F 0 "C35" H 4910 6770 50  0000 L CNN
 F 1 "0.1uf" H 4910 6620 50  0000 L CNN
-F 2 "" H 4900 6700 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4900 6700 60  0001 C CNN
 F 3 "" H 4900 6700 60  0000 C CNN
 	1    4900 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C?
+L C_Small C23
 U 1 1 5628C134
 P 2950 6050
-F 0 "C?" H 2960 6120 50  0000 L CNN
+F 0 "C23" H 2960 6120 50  0000 L CNN
 F 1 "0.1uf" H 2960 5970 50  0000 L CNN
-F 2 "" H 2950 6050 60  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2950 6050 60  0001 C CNN
 F 3 "" H 2950 6050 60  0000 C CNN
 	1    2950 6050
 	1    0    0    -1  
 $EndComp
 Text GLabel 8450 2050 1    60   3State ~ 0
 QT_CS
-Text GLabel 5600 4850 2    60   Input ~ 0
+Text GLabel 5950 4000 0    60   Input ~ 0
 GATE_IN3
-Text GLabel 5600 5350 2    60   Input ~ 0
+Text GLabel 5950 4500 0    60   Input ~ 0
 GATE_IN4
-Text GLabel 7500 2800 0    60   Input ~ 0
+Text GLabel 7250 3400 0    60   Input ~ 0
 QT_RX
-Text GLabel 6850 2700 0    60   Input ~ 0
+Text GLabel 6550 3300 0    60   Input ~ 0
 QT_TX
 $Comp
-L JUMPER3 JP?
+L JUMPER3 JP4
 U 1 1 5629034F
-P 5250 4850
-F 0 "JP?" H 5300 4750 50  0000 L CNN
-F 1 "JUMPER3" H 5250 4950 50  0000 C BNN
-F 2 "Zetaohm:Jumper_3way" H 5250 4850 60  0001 C CNN
-F 3 "" H 5250 4850 60  0000 C CNN
-	1    5250 4850
+P 5950 4200
+F 0 "JP4" H 6000 4100 50  0000 L CNN
+F 1 "JUMPER3" H 5950 4300 50  0000 C BNN
+F 2 "Zetaohm:Jumper_3way" H 5950 4200 60  0001 C CNN
+F 3 "" H 5950 4200 60  0000 C CNN
+	1    5950 4200
 	-1   0    0    1   
 $EndComp
 $Comp
-L JUMPER3 JP?
+L JUMPER3 JP5
 U 1 1 5629077E
-P 5250 5350
-F 0 "JP?" H 5300 5250 50  0000 L CNN
-F 1 "JUMPER3" H 5250 5450 50  0000 C BNN
-F 2 "Zetaohm:Jumper_3way" H 5250 5350 60  0001 C CNN
-F 3 "" H 5250 5350 60  0000 C CNN
-	1    5250 5350
+P 5950 4700
+F 0 "JP5" H 6000 4600 50  0000 L CNN
+F 1 "JUMPER3" H 5950 4800 50  0000 C BNN
+F 2 "Zetaohm:Jumper_3way" H 5950 4700 60  0001 C CNN
+F 3 "" H 5950 4700 60  0000 C CNN
+	1    5950 4700
 	-1   0    0    1   
 $EndComp
-Text Notes 5650 3450 2    60   ~ 0
+Text Notes 6250 3800 2    60   ~ 0
 QT UART / GATE 3-4
-Text GLabel 5250 4650 0    60   Input ~ 0
-TEENSY_PIN3
-Text GLabel 5250 5150 0    60   Input ~ 0
-TEENSY_PIN4
-$Comp
-L JUMPER3 JP?
-U 1 1 562946F5
-P 5250 3850
-F 0 "JP?" H 5300 3750 50  0000 L CNN
-F 1 "JUMPER3" H 5250 3950 50  0000 C BNN
-F 2 "Zetaohm:Jumper_3way" H 5250 3850 60  0001 C CNN
-F 3 "" H 5250 3850 60  0000 C CNN
-	1    5250 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L JUMPER3 JP?
-U 1 1 562946FB
-P 5250 4350
-F 0 "JP?" H 5300 4250 50  0000 L CNN
-F 1 "JUMPER3" H 5250 4450 50  0000 C BNN
-F 2 "Zetaohm:Jumper_3way" H 5250 4350 60  0001 C CNN
-F 3 "" H 5250 4350 60  0000 C CNN
-	1    5250 4350
-	-1   0    0    1   
-$EndComp
-Text GLabel 5250 3650 0    60   Input ~ 0
-TEENSY_PIN1
-Text GLabel 5250 4150 0    60   Input ~ 0
-TEENSY_PIN2
 Wire Wire Line
 	9400 3200 10000 3200
 Wire Wire Line
@@ -1009,7 +975,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 2600 7700 2600
 Wire Wire Line
-	7700 2700 6850 2700
+	7700 2700 7050 2700
 Wire Wire Line
 	7500 2800 7700 2800
 Wire Wire Line
@@ -1107,57 +1073,40 @@ Wire Wire Line
 	2950 5800 2950 5950
 Connection ~ 2750 6100
 Wire Wire Line
-	4900 4850 5000 4850
+	5600 4200 5700 4200
 Wire Wire Line
-	5250 4650 5250 4750
+	5950 4000 5950 4100
 Wire Wire Line
-	5500 4850 5600 4850
+	6200 4200 6300 4200
 Wire Wire Line
-	5500 5350 5600 5350
+	6200 4700 6300 4700
 Wire Wire Line
-	5000 5350 4900 5350
+	5700 4700 5600 4700
 Wire Wire Line
-	5250 5150 5250 5250
+	5950 4500 5950 4600
 Wire Wire Line
-	4900 3850 5000 3850
+	5950 4050 6250 4050
 Wire Wire Line
-	5250 3650 5250 3750
+	6250 4050 6250 4200
+Connection ~ 6250 4200
+Connection ~ 5950 4050
 Wire Wire Line
-	5500 3850 5600 3850
+	5950 4550 6250 4550
 Wire Wire Line
-	5500 4350 5600 4350
-Wire Wire Line
-	5000 4350 4900 4350
-Wire Wire Line
-	5250 4150 5250 4250
-Wire Wire Line
-	5250 3700 5550 3700
-Wire Wire Line
-	5550 3700 5550 3850
-Connection ~ 5550 3850
-Connection ~ 5250 3700
-Wire Wire Line
-	5250 4200 5550 4200
-Wire Wire Line
-	5550 4200 5550 4350
-Connection ~ 5550 4350
-Connection ~ 5250 4200
-Wire Wire Line
-	5250 4700 5550 4700
-Wire Wire Line
-	5550 4700 5550 4850
-Connection ~ 5550 4850
-Connection ~ 5250 4700
-Wire Wire Line
-	5250 5200 5550 5200
-Wire Wire Line
-	5550 5200 5550 5350
-Connection ~ 5550 5350
-Connection ~ 5250 5200
-$Sheet
-S 1000 4350 1200 300 
-U 56295FCA
-F0 "Gate Input + Encoders" 60
-F1 "gateInput.sch" 60
-$EndSheet
+	6250 4550 6250 4700
+Connection ~ 6250 4700
+Connection ~ 5950 4550
+Text GLabel 10000 3400 2    60   Input ~ 0
+PIN_A1
+Text GLabel 10500 3500 2    60   Input ~ 0
+PIN_A0
+Text GLabel 6300 4200 2    60   Input ~ 0
+PIN_A0
+Text GLabel 6300 4700 2    60   Input ~ 0
+PIN_A1
+Text GLabel 5600 4200 0    60   Input ~ 0
+MCP_GATE_IN3
+Text GLabel 5600 4700 0    60   Input ~ 0
+MCP_GATE_IN4
+NoConn ~ 7450 2400
 $EndSCHEMATC
