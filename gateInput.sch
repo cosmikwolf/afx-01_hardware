@@ -68,17 +68,13 @@ F 3 "" H 5550 2850 60  0000 C CNN
 $EndComp
 NoConn ~ 6700 3400
 NoConn ~ 6700 3500
-Text GLabel 7900 3200 2    39   Output ~ 0
-ENC1SW
-Text GLabel 7900 3300 2    39   Output ~ 0
-ENC2SW
-Text GLabel 7900 3700 2    39   Output ~ 0
+Text GLabel 7900 2700 2    39   Output ~ 0
 GATE_OUT4
-Text GLabel 7900 3600 2    39   Output ~ 0
+Text GLabel 7900 2600 2    39   Output ~ 0
 GATE_OUT3
-Text GLabel 7900 3500 2    39   Output ~ 0
+Text GLabel 7900 2500 2    39   Output ~ 0
 GATE_OUT2
-Text GLabel 7900 3400 2    39   Output ~ 0
+Text GLabel 7900 2400 2    39   Output ~ 0
 GATE_OUT1
 Text GLabel 5750 2200 0    59   Input ~ 0
 SCL0_5v
