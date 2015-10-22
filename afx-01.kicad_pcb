@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew "(2015-10-14 BZR 6269)-product")
 
   (general
-    (links 0)
+    (links 580)
     (no_connects 470)
-    (area 3.350716 -3.792 277.391429 201.979201)
+    (area -26.690261 -3.792 277.391429 201.979201)
     (thickness 1.6)
     (drawings 51)
     (tracks 187)
@@ -58,8 +58,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 0.5 0.5)
     (mod_text_width 0.07)
-    (pad_size 3 3)
-    (pad_drill 2.78)
+    (pad_size 6.5 2)
+    (pad_drill 6)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 16.51 16.51)
     (grid_origin 16.51 16.51)
@@ -422,7 +422,7 @@
     (add_net VSS)
   )
 
-  (module Zetaohm:FACEPLATEV1 (layer F.Cu) (tedit 5626A575) (tstamp 5627CB45)
+  (module Zetaohm:FACEPLATEV1 (layer F.Cu) (tedit 562953E1) (tstamp 5627CB45)
     (at 213.3092 91.2368)
     (fp_text reference G*** (at 51.9176 -41.656) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
@@ -6009,8 +6009,8 @@
     (pad "" thru_hole oval (at 25.9842 -23.1648 90) (size 2 0.5) (drill oval 1 0.3) (layers *.Cu))
     (pad "" thru_hole oval (at 26.9875 -23.1648 90) (size 2 0.5) (drill oval 1 0.3) (layers *.Cu))
     (pad "" thru_hole oval (at 27.9908 -23.1648 90) (size 2 0.5) (drill oval 1 0.3) (layers *.Cu))
-    (pad "" thru_hole oval (at -25.9842 -29.6672) (size 6.5 2) (drill oval 6 0.3) (layers *.Cu))
-    (pad "" thru_hole oval (at -25.9842 -27.6606) (size 6.5 2) (drill oval 6 0.3) (layers *.Cu))
+    (pad "" thru_hole oval (at -25.9842 -29.6672) (size 6.5 2) (drill oval 6 0.3) (layers B.Cu))
+    (pad "" thru_hole oval (at -25.9842 -27.6606) (size 6.5 2) (drill oval 6 0.3) (layers B.Cu))
     (pad "" thru_hole oval (at -26.0096 -23.1648 90) (size 2 0.5) (drill oval 1 0.3) (layers *.Cu))
     (pad "" thru_hole oval (at -28.0162 -23.1648 90) (size 2 0.5) (drill oval 1 0.3) (layers *.Cu))
     (pad "" thru_hole oval (at -27.0129 -23.1648 90) (size 2 0.5) (drill oval 1 0.3) (layers *.Cu))
