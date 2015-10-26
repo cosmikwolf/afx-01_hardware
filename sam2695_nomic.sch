@@ -83,7 +83,7 @@ U 1 1 557230FD
 P 6250 3800
 F 0 "C17" V 6300 3900 39  0000 L CNN
 F 1 "10µfT" V 6300 3300 39  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6160 3730 60  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering" H 6160 3730 60  0001 C CNN
 F 3 "" H 6250 3800 60  0000 C CNN
 	1    6250 3800
 	0    -1   -1   0   
@@ -171,7 +171,7 @@ U 1 1 55728143
 P 4000 4800
 F 0 "C5" H 4150 4750 39  0000 L CNN
 F 1 "1µfT" H 4150 4650 39  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3910 4730 60  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering" H 3910 4730 60  0001 C CNN
 F 3 "" H 4000 4800 60  0000 C CNN
 	1    4000 4800
 	1    0    0    -1  
@@ -182,7 +182,7 @@ U 1 1 55728514
 P 6100 1900
 F 0 "C12" V 6150 2000 39  0000 L CNN
 F 1 "100µfT" V 5950 1900 39  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6010 1830 60  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering" H 6010 1830 60  0001 C CNN
 F 3 "" H 6100 1900 60  0000 C CNN
 	1    6100 1900
 	0    -1   -1   0   
@@ -226,7 +226,7 @@ U 1 1 55728A14
 P 7250 3600
 F 0 "C19" V 7300 3700 39  0000 L CNN
 F 1 "10µfT" V 7300 3100 39  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7160 3530 60  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering" H 7160 3530 60  0001 C CNN
 F 3 "" H 7250 3600 60  0000 C CNN
 	1    7250 3600
 	0    -1   -1   0   
@@ -248,7 +248,7 @@ U 1 1 55728F27
 P 6250 3150
 F 0 "C16" V 6300 3250 39  0000 L CNN
 F 1 "10µfT" V 6300 2650 39  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6160 3080 60  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering" H 6160 3080 60  0001 C CNN
 F 3 "" H 6250 3150 60  0000 C CNN
 	1    6250 3150
 	0    -1   -1   0   
@@ -259,7 +259,7 @@ U 1 1 55728F67
 P 5800 1650
 F 0 "C11" V 5850 1750 39  0000 L CNN
 F 1 "100µfT" V 5650 1650 39  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5710 1580 60  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering" H 5710 1580 60  0001 C CNN
 F 3 "" H 5800 1650 60  0000 C CNN
 	1    5800 1650
 	0    -1   -1   0   
@@ -315,7 +315,7 @@ U 1 1 557B9492
 P 6800 4650
 F 0 "C25" V 6850 4750 39  0000 L CNN
 F 1 "4.7µfT" V 6850 4150 39  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6710 4580 60  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering" H 6710 4580 60  0001 C CNN
 F 3 "" H 6800 4650 60  0000 C CNN
 	1    6800 4650
 	0    -1   -1   0   
